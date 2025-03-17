@@ -81,7 +81,7 @@
 
         function addMansions() {
             const geometry = new THREE.BoxGeometry(30, 20, 50);
-            const texture = new THREE.TextureLoader().load('path_to_building_texture.jpg');
+            const texture = new THREE.TextureLoader().load('gravel_road1.jpg');
             const material = new THREE.MeshBasicMaterial({ map: texture });
             for (let i = 0; i < 3; i++) {
                 const mansion = new THREE.Mesh(geometry, material);
